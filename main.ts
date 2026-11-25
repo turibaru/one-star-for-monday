@@ -2,6 +2,10 @@
 // The grader only ever sees what this file writes out, so the guard runs first.
 // A Monday review should read like a diner complaining, not like a calendar.
 // If the line ever breaks the house rules, we refuse loudly instead of shipping it.
+// Monday is the regular who always sends the food back, so the review keeps its voice small and specific.
+// Cold coffee and burnt toast are the whole complaint; nothing else needs saying about the day.
+// The weekend is the tip that never arrives, and the bill is the only souvenir Monday leaves behind.
+// One star is generous here — the waiter already spent the weekend before the coffee even arrived.
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
